@@ -3,90 +3,299 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Sebastian Torres</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <div class="logo">Sebastian Torres</div>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="logo">ST<span>.</span></div>
 
         <div class="nav-links">
             <a href="#home">Home</a>
             <a href="#about">About Me</a>
-            <a href="#gallery">Gallery</a>
+            <a href="#gallery">My Photos</a>
         </div>
     </nav>
 
 
-    <!-- Home -->
-    <section id="home" class="hero">
+    <!-- HOME -->
+    <section class="hero" id="home">
 
         <div class="hero-content">
+
             <p class="small-title">WELCOME TO MY WEBSITE</p>
 
-            <h1>Hi, I'm Sebastian.</h1>
+            <h1>
+                Hi, I'm
+                <span>Sebastian.</span>
+            </h1>
 
-            <p>
-                Finance student, technology enthusiast, and lifelong learner.
+            <p class="hero-description">
+                A little place on the internet where I can share
+                some things about myself, the people I love,
+                and a few moments I've captured along the way.
             </p>
 
-            <a href="#about" class="button">Learn More</a>
+            <a href="#about" class="button">
+                Get to know me ↓
+            </a>
+
         </div>
 
     </section>
 
 
-    <!-- About Me -->
-    <section id="about" class="about">
+    <!-- ABOUT ME -->
+    <section class="about" id="about">
 
-        <div class="section-title">
-            <p>GET TO KNOW ME</p>
-            <h2>About Me</h2>
+        <div class="section-number">
+            01 / ABOUT ME
         </div>
 
-        <p>
-            My name is Sebastian Torres. I am a finance student at Loyola
-            University Chicago with an interest in business, technology,
-            and artificial intelligence.
+        <div class="about-container">
+
+            <div class="about-title">
+                <h2>
+                    A little<br>
+                    <em>about me.</em>
+                </h2>
+            </div>
+
+            <div class="about-text">
+
+                <p class="intro">
+                    Hi, my name is Sebastian Torres. I was born and raised
+                    in Medellín, Colombia, and I moved to Chicago a few years
+                    ago to start college and begin a new chapter of my life.
+                </p>
+
+                <p>
+                    Moving to a new country and starting college was definitely
+                    a big change, but I've really enjoyed getting to experience
+                    a different city and meet new people. I'm currently in
+                    college studying finance.
+                </p>
+
+                <p>
+                    Outside of school, I'm someone who loves doing a lot of
+                    different things. I love watching movies, going to new
+                    places, learning new things, and honestly just finding
+                    something fun to do. I also really love sunsets. I don't
+                    know what it is about them, but I can never get tired of
+                    taking pictures of them.
+                </p>
+
+                <p>
+                    Photography is something I really enjoy. I'm definitely
+                    not a professional photographer, but I like taking pictures
+                    of things that catch my attention or moments that I want
+                    to remember later.
+                </p>
+
+                <p>
+                    One of the biggest parts of my life is my dog, Kitana.
+                    She's a Siberian Husky and just turned three. She is
+                    probably one of the funniest and most important parts
+                    of my life, and yes, I will probably show everyone
+                    pictures of her whether they ask or not.
+                </p>
+
+                <p>
+                    I also love dressing up. Whether it's going out with
+                    friends, going to an event, or just putting together an
+                    outfit that I really like, fashion is one of the ways
+                    I like expressing myself.
+                </p>
+
+                <p>
+                    I guess if I had to describe myself in a few words,
+                    I'd say I'm curious, outgoing, and always looking for
+                    something new to experience.
+                </p>
+
+
+                <!-- QUICK FACTS -->
+
+                <div class="facts">
+
+                    <div class="fact">
+                        <span>01</span>
+                        <h4>FROM</h4>
+                        <p>Medellín, Colombia 🇨🇴</p>
+                    </div>
+
+                    <div class="fact">
+                        <span>02</span>
+                        <h4>LIVING IN</h4>
+                        <p>Chicago, Illinois</p>
+                    </div>
+
+                    <div class="fact">
+                        <span>03</span>
+                        <h4>I LOVE</h4>
+                        <p>Movies, sunsets & exploring</p>
+                    </div>
+
+                    <div class="fact">
+                        <span>04</span>
+                        <h4>BEST FRIEND</h4>
+                        <p>Kitana 🐺</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PHOTO GALLERY -->
+    <section class="gallery" id="gallery">
+
+        <div class="section-number">
+            02 / MY PHOTOS
+        </div>
+
+        <div class="gallery-header">
+
+            <h2>
+                Some of my<br>
+                <em>favorite moments.</em>
+            </h2>
+
+            <p>
+                Here are a few pictures that mean something to me.
+                Some are just moments I thought looked cool,
+                and others are things I genuinely love.
+            </p>
+
+        </div>
+
+
+        <div class="photo-grid">
+
+            <!-- PHOTO 1 -->
+
+            <div class="photo-card large">
+
+                <div class="photo">
+                    <img src="IMG_0233.jpg" alt="Sunset over the water">
+                </div>
+
+                <div class="photo-description">
+
+                    <span>01 — SUNSET</span>
+
+                    <h3>One of my favorite things.</h3>
+
+                    <p>
+                        I took this picture because I loved how calm everything
+                        looked.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PHOTO 2 -->
+
+            <div class="photo-card">
+
+                <div class="photo">
+                    <img src="IMG_0235.jpg" alt="Kitana the Siberian Husky">
+                </div>
+
+                <div class="photo-description">
+
+                    <span>02 — KITANA</span>
+
+                    <h3>The love of my life.</h3>
+
+                    <p>
+                        This is Kitana, my Siberian Husky. She just turned
+                        three. She can be crazy sometimes, but I wouldn't change her.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PHOTO 3 -->
+
+            <div class="photo-card">
+
+                <div class="photo">
+                    <img src="IMG_0236.jpg" alt="Sebastian wearing a red outfit">
+                </div>
+
+                <div class="photo-description">
+
+                    <span>03 — STYLE</span>
+
+                    <h3>I love dressing up.</h3>
+
+                    <p>
+                        I really enjoy putting together outfits and dressing
+                        up for different occasions. Sometimes you just have
+                        to go all out.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FINAL MESSAGE -->
+
+    <section class="ending">
+
+        <p class="small-title">
+            THANK YOU FOR VISITING
         </p>
 
+        <h2>
+            Thanks for stopping by.
+        </h2>
+
         <p>
-            I enjoy learning new things, working on creative projects,
-            spending time with friends and family, and exploring new places.
+            I hope you enjoyed getting to know a little bit about me
+            and seeing some of the things that are important to me.
+            Thanks for taking the time to visit my website!
         </p>
 
-    </section>
-
-
-    <!-- Gallery -->
-    <section id="gallery" class="gallery">
-
-        <div class="section-title">
-            <p>A FEW OF MY FAVORITE THINGS</p>
-            <h2>Gallery</h2>
-        </div>
-
-        <div class="images">
-
-            <img src="image1.jpg" alt="Picture 1">
-
-            <img src="image2.jpg" alt="Picture 2">
-
-            <img src="image3.jpg" alt="Picture 3">
-
-        </div>
+        <a href="#home" class="button">
+            Back to top ↑
+        </a>
 
     </section>
 
 
-    <!-- Footer -->
+    <!-- FOOTER -->
+
     <footer>
+
         <p>© 2026 Sebastian Torres</p>
+
+        <p>
+            Medellín → Chicago
+        </p>
+
     </footer>
 
 </body>
